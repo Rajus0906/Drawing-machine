@@ -8,7 +8,5 @@ void draw() {
   if (mousePressed == true) {
     line(mouseX, mouseY, pmouseX, pmouseY);
     strokeWeight(16);  // Thicker
-    
-    
   }
 }
